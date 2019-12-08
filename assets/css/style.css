@@ -1,0 +1,81 @@
+
+ .container{
+    background-image: url("blue-snow.png");
+    font-family: Arial, Helvetica, sans-serif;
+    height:100%;
+    width: 100%;
+
+ } 
+
+
+
+.header{
+    height: 70px;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    background:#ffffff;
+    border-bottom-style: inset;
+    border-bottom-width: 3px;
+    border-color: #cccccc;
+}
+
+
+.left{
+    height: 70px;
+    width: 600;
+    color:white;
+    background:#4aaaa5;
+    float:left; 
+    margin-left: 200px;
+    margin-top: 0px;
+    
+
+}
+.right{
+    background: #ffffff;
+    border-color: #cccccc;
+    color: #777777;
+    float: right;
+    position: relative;
+    left: -200px;
+    margin: 10px;
+    margin-top: 30px;
+}
+.main{
+    height: 550px;
+    width: 1000px;
+    color: #777777;
+}
+
+.content{
+    background: #ffffff;
+    position: relative;
+    width: 960px;
+    height: 400px;
+    right:-200px;
+    bottom: -75px;
+}
+
+.about{
+    margin:5px;
+
+}
+.photo1{
+    float: left;
+    margin-left: 20px;
+    margin-right: 500px;
+}
+
+.cv{
+    float:left;
+    margin-left:20px;
+}
+
+
+footer{
+    height: 100px;
+    background-color:#666666;
+    border-top:8px solid #4aaaa5;
+    position:sticky;
+    text-align: center;
+    
+}
