@@ -35,41 +35,37 @@
     background: #ffffff;
     border-color: #cccccc; 
     color: #777777;
-    float: right;
-    position: relative;
-    left: -200px;
-    margin: 10px;
-    margin-top: 30px;
+    float: right; 
+    padding-top: 20px;
+    padding-right: 200px;
 }
+.right_link{
+    color: #777777;
+    text-decoration: none;
+}
+
 .main{
     width: 960px;
     height: 800px;
     color: #777777;
-}
+} 
 
 .content{
     width: 960px;
-    height: 400px;
+    height: 600px;
     background: #ffffff;
     position: relative;
     right:-200px;
     bottom: -75px;
 }
+.content_header{
+    padding: 0px 20px 20px 20px;
+}
 
 .about{
-    width: 960px;
+    width: 900px;
     height: 400px;
-    margin: 20px 20px 20px 20px;
-    scroll-padding-right: 30px;
-}
-.photo1{
-    margin-top:20px;
-    float: left;
-}
-
-.cv{
-    margin-top: 20px;
-    float: right;
+    padding-left: 20px;
 }
 
 .form1{
@@ -80,6 +76,14 @@
 #buttn{
     background: #4aaaa5;
     padding: 5px;
+}
+
+.photos{
+    width: 200px;
+    height: 200px;
+    float: left; 
+    margin-left:20px
+
 }
 
 .footer{
