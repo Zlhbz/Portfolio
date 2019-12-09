@@ -6,9 +6,7 @@
     width: 100%;
 
  } 
-
-
-
+ 
 .header{
     height: 70px;
     font-family:'Georgia', Times, 'Times New Roman', serif;
@@ -16,7 +14,6 @@
     border-bottom: 3px inset #dddddd;
     
 }
-
 
 .left{
     height: 50px;
@@ -28,9 +25,8 @@
     float:left; 
     margin-left: 200px;
     margin-top: 0px;
-    
-
 }
+
 .right{
     background: #ffffff;
     border-color: #cccccc; 
@@ -52,11 +48,12 @@
 
 .content{
     width: 960px;
-    height: 600px;
+    min-height: 400px;
+    padding-bottom: 50px;
     background: #ffffff;
     position: relative;
     right:-200px;
-    bottom: -75px;
+    top: 75px;
 }
 .content_header{
     padding: 0px 20px 20px 20px;
@@ -76,14 +73,14 @@
 #buttn{
     background: #4aaaa5;
     padding: 5px;
+    color: white;
 }
 
-.photos{
+.photo{
     width: 200px;
     height: 200px;
     float: left; 
     margin-left:20px
-
 }
 
 .footer{
@@ -92,6 +89,5 @@
     border-top:8px solid #4aaaa5;
     position:sticky;
     bottom: 0px;
-    text-align: center;
-    
+    text-align: center;   
 }
